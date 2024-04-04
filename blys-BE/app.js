@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
-  origin: 'https://verification-guddu144s-projects.vercel.app/',
+  origin: 'https://verification-guddu144s-projects.vercel.app',
   credentials: true,
 };
 
