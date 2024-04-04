@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
-  origin: 'https://verification-guddu.onrender.com',
+  origin: '*',
   credentials: true,
 };
 
