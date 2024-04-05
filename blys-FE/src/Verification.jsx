@@ -37,7 +37,7 @@ const Verification = () => {
           />
         </div>
         <span>{result?.message}</span>
-        <button type='submit' style={{ border: '1px solid #000', backgroundColor: '#800080', padding: '10px 20px', borderRadius: '5px', marginTop: '20px' }}>Submit</button>
+        <button type='submit' style={{ border: '1px solid #000', backgroundColor: '#800080', color: '#fff', padding: '10px 20px', borderRadius: '5px', marginTop: '20px' }}>Submit</button>
       </div>
     </form>
   );
